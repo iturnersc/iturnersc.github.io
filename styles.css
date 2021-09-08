@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.assignments {
+    padding: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 16px;
+}
+
+.assignment {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    border: none;
+    border-radius: 8px;
+}
+
+.assignment-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
