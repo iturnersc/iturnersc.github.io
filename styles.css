@@ -1,11 +1,30 @@
 
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
 body {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 h1 {
     text-align: center;
+}
+
+h3 {
+    color: black;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: black;
 }
 
 .assignments {
@@ -17,12 +36,21 @@ h1 {
 }
 
 .assignment {
+    position: relative;
+    top: 0;
     padding: 16px;
     display: flex;
     flex-direction: column;
-    background-color: #eee;
+    background-color: white;
     border: none;
     border-radius: 8px;
+    box-shadow: 0 0 8px #888;
+}
+
+.assignment:hover {
+    top: -6px;
+    box-shadow: 0 0 12px #888;
+    transition: all 0.3s;
 }
 
 .assignment-img {
